@@ -3,7 +3,9 @@
    padding: 0;
    
  }
- 
+ /* html,body{
+   height: 100%;
+ } */
  /* center {
     margin: auto;
     width: 100%;
@@ -13,7 +15,7 @@
 body{
   /* overflow: hidden; */
   background:linear-gradient(155deg,rgba(131, 39, 218, 0.65), rgba(212, 33, 173, 0.65), rgba(238, 168, 63, 0.65), rgba(233, 208, 50, 0.65)),url('images/background.jpg') no-repeat fixed;
-      width: 100vw;
+    width: 100vw;
     height: 100vh;
     background-size: cover;
     /* min-width: 1280px; */
@@ -172,9 +174,10 @@ section {
 
 section .section-title {
   text-align: center;
-  color: #007b5e;
+  color: darkturquoise;
   margin-bottom: 50px;
   text-transform: uppercase;
+  text-shadow: 3px  3px  20px rgba(20, 9, 9, 0.8);
 }
 #team {
   padding: 60px 0;
@@ -276,7 +279,7 @@ section .section-title {
 }
 .frontside .card .card-title,
 .backside .card .card-title {
-  color: #007b5e !important;
+  color: darkslateblue !important;
 }
 
 .frontside .card .card-body img {
