@@ -5,7 +5,7 @@
 {% block body %}
 <div class="pb-5 col d-flex justify-content-center align-items-center ">
   <div class = "table-responsive container col-6 col-md-6 col-sm-8">
-
+  <form>
   <table id = "table" class="table table-borderless table-dark table-striped"  align="center"  cellspacing="5" cellpadding="5">
     <h1 class = "form-heading">Teacher Registration</h1>
     <tr>
@@ -41,7 +41,7 @@
         </tr>
         <tr>
             <th>
-                <label class = "input-label-form" for="scode">Subject Code</label> 
+                <label class = "input-label-form" for="scode">Subject Code</label>
             </th>
                 <td>
                   <select class="input_form form-control">
@@ -63,14 +63,16 @@
           </tr>
               <tr>
             <td align="center" colspan="2">
-                <div class="col-8">
-                  <a  href="/register" target="_parent" class="btn btn-primary btn-block btn_register">REGISTER</a>
-              </div>
-          </td>
+                <div class=" d-grid gap-2 d-md-block  text-center">
+                  <a href="/register" target="_parent" class="btn btn-outline-primary btn-lg btn_register">REGISTER</a>
+                  <input class="btn btn-outline-danger btn_reset btn-lg" type="reset" value="RESET">
+                </div>
+            </td>
           </tr>
             </table>
+          </form>
           </div>
           </div>
         </div>
       </div>
- {% endblock body %}  
+      {% endblock body %}

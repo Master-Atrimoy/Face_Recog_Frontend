@@ -5,7 +5,7 @@
 {% block body %} 
 <div class="pb-5 col d-flex justify-content-center align-items-center ">
   <div class = "table-responsive container col-6 col-md-6 col-sm-8">
-
+<form class >
   <table class="table table-borderless table-dark table-striped"  align="center"  cellspacing="5" cellpadding="5">
     <h1 class = "form-heading">Take Attendance</h1>
     <tr>
@@ -41,12 +41,15 @@
           </tr>
               <tr>
             <td align="center" colspan="2">
-                <div class="col-8">
-                  <a  href="#" target="_parent" class="btn btn-primary btn-block btn_register">Submit</a>
-              </div>
+                <div class=" d-grid gap-2 d-md-block  text-center">
+                  <a  href="#" target="_parent" class="btn btn-outline-primary btn-lg btn_register">SUBMIT</a>
+                  {% comment %} <a class="btn btn_reset btn-lg" >RESET</a> {% endcomment %}
+                  <input class="btn btn-outline-danger btn_reset btn-lg" type="reset" value="RESET">
+                </div>
           </td>
           </tr>
             </table>
+          </form>
           </div>
           </div>
         </div>
